@@ -28,5 +28,5 @@ func serveFile(rw http.ResponseWriter, rq *http.Request) {
 }
 
 func helloWorld() string {
- return fmt.Sprintf("greetings! the time is %s", time.Now().Local())
+ return fmt.Sprintf("hello world! the time is %s", time.Now().Local())
 }
